@@ -2,10 +2,8 @@
 
 The E-Commerce Application is built using Java and Spring Boot, with security, scalability, and ease of maintenance. The backend uses Spring Data JPA to interact with a MySQL database, making it easy to manage and store important entities such as users, products, categories, orders, and more. User authentication is handled by Auth0, providing secure and reliable means of REST APIs.
 
-- The APIs are well-documented and easily accessible through Swagger UI, making it simple for developers to test and understand the various endpoints. Overall, this project provides secure Rest APIs to create a scalable platform for businesses to sell their products to customers.
-
 # Features
-## Admin:-
+## Admin:
 - Login
 - Users
 - Address
@@ -14,7 +12,7 @@ The E-Commerce Application is built using Java and Spring Boot, with security, s
 - Price & discount
 - Orders
 
-## User:-
+## User:
 - Registration & Login
 - Fetch categories and products based on category
 - Adding & deleting products to cart
@@ -23,9 +21,6 @@ The E-Commerce Application is built using Java and Spring Boot, with security, s
 
 # Security
 - The API is secured using JSON Web Tokens (JWT) handled by Auth0. To access the API, you will need to obtain a JWT by authenticating with the /login endpoint. The JWT should then be passed in the Authorize option available in the Swagger-ui.
-
-  ### Example:
-  - Authorization: <your_jwt>
 
 # Technologies:
 - Java 17 or above
